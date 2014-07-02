@@ -87,12 +87,20 @@
 	padding: 0 inherit;
 }
 
-#header-region .columnizer-row .asset-inner h2.asset-title {
-	line-height: 75px;
-}
+#header-region .columnizer-row {
+	.asset-inner {
+		h2.asset-title {
+			line-height: 80px;
+		}
+	
+		.body p {
+			line-height: 25px;
+		}
+	}
 
-#header-region .columnizer-row .asset-inner .body p {
-	line-height: 25px;
+	.columnizer-col:last-child {
+		margin-top: 20px;
+	}
 }
 
 // Content wrapper
