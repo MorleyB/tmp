@@ -18,8 +18,11 @@
 // Typography defaults
 
 @text-color: #fff;
+@dark-text-color: #000;
 // @custom-color is defined in variables.less
 @link-color: @custom-color;
+
+@border-radius: 5px;
 
 // Title text defaults
 // @headline-font-family is defined in variables.less
@@ -52,6 +55,20 @@
     color: @link-color;
     &:active { color: lighten(@link-color, 20%); }
   }
+}
+
+.pplr-icon {
+	background-color: @text-color !important;
+	-webkit-border-radius: @border-radius !important;
+	-moz-border-radius: @border-radius !important;
+	border-radius: @border-radius !important;
+	display: inline-block !important;
+	line-height: 1 !important;
+	padding: 0.32em 0.3em 0.28em 0.3em !important;
+	text-align: center !important;
+	width: 1em !important;
+	color: @dark-text-color !important;
+	text-shadow: none !important;
 }
 
 // End typography defaults
