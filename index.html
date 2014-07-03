@@ -313,12 +313,21 @@
 
     {{#region "packer" id="main-content-region" columns="2" column_width="430" gutter_width="20" dummy_content="T-1-m,E-1-s"}}
 
-     {{#asset "text" size="m"}}
+      {{#asset "text" size="m"}}
+        {{{title}}}
+        {{{body}}}
+      {{/asset}}
+      
+      {{#asset "text" size="l"}}
         {{{title}}}
         {{{body}}}
       {{/asset}}
  
       {{#asset "imagegroup" size="m"}}
+        {{{imageslider images width="430" height="353"}}}
+      {{/asset}}
+      
+      {{#asset "imagegroup" size="l"}}
         {{{imageslider images width="430" height="353"}}}
       {{/asset}}
  
@@ -332,8 +341,27 @@
           {{/documents}}
         </ul>
       {{/asset}}
-
-      {{#asset "embedgroup" size="m" width="430"}}
+      
+      {{#asset "documentgroup" size="l"}}
+        {{{title}}}
+        {{{description}}}
+        <ul class="documents">
+          {{#documents}}
+            {{!--  The i tag gets styled by Font Awesome, which Populr pulls in automatically. --}}
+            <li><a href="{{original_url}}"><i class="icon icon-circle-arrow-right" /> {{title}}</a></li>
+          {{/documents}}
+        </ul>
+      {{/asset}}
+	  
+	  {{#asset "embedgroup" size="m" width="430"}}
+        {{{title}}}
+        {{#embeds}}
+          <div class="embed">{{{html}}}</div>
+        {{/embeds}}
+        {{{description}}}
+      {{/asset}}
+      
+      {{#asset "embedgroup" size="l" width="430"}}
         {{{title}}}
         {{#embeds}}
           <div class="embed">{{{html}}}</div>
