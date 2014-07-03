@@ -311,36 +311,36 @@
 
     {{/region}}
 
-    {{#region "packer" id="main-content-region" max_cols="2" max_auto_assets="0" dummy_content="T1,E-1"}}
+    {{#region "packer" id="main-content-region" columns="2" column_width="430" max_auto_assets="0" dummy_content="T1,E-1"}}
 
-      {{#asset "text" size="1"}}
+      {{#asset "text" size="s"}}
         {{{title}}}
         {{{body}}}
       {{/asset}}
 
-      {{#asset "text" size="2"}}
+      {{#asset "text" size="m"}}
         {{{title}}}
         {{{body}}}
       {{/asset}}
 
-      {{#asset "text" size="3"}}
+      {{#asset "text" size="l"}}
         {{{title}}}
         {{{body}}}
       {{/asset}}
 
-      {{#asset "imagegroup" size="1"}}
+      {{#asset "imagegroup" size="l"}}
         {{{imageslider images width="960" height="360"}}}
       {{/asset}}
  
-      {{#asset "imagegroup" size="2"}}
+      {{#asset "imagegroup" size="m"}}
         {{{imageslider images width="430" height="353"}}}
       {{/asset}}
   
-      {{#asset "imagegroup" size="3"}}
+      {{#asset "imagegroup" size="s"}}
         {{{imageslider images width="266" height="230"}}}
       {{/asset}}
   
-      {{#asset "documentgroup" size="1"}}
+      {{#asset "documentgroup" size="s"}}
         {{{title}}}
         {{{description}}}
         <ul class="documents">
@@ -351,7 +351,7 @@
         </ul>
       {{/asset}}
  
-      {{#asset "documentgroup" size="2"}}
+      {{#asset "documentgroup" size="m"}}
         {{{title}}}
         {{{description}}}
         <ul class="documents">
@@ -362,7 +362,7 @@
         </ul>
       {{/asset}}
  
-      {{#asset "documentgroup" size="3"}}
+      {{#asset "documentgroup" size="l"}}
         {{{title}}}
         {{{description}}}
         <ul class="documents">
@@ -373,7 +373,7 @@
         </ul>
       {{/asset}}
  
-      {{#asset "embedgroup" size="1" width="960"}}
+      {{#asset "embedgroup" size="l" width="960"}}
         {{{title}}}
         {{#embeds}}
           <div class="embed">{{{html}}}</div>
@@ -381,7 +381,7 @@
         {{{description}}}
       {{/asset}}
 
-      {{#asset "embedgroup" size="2" width="430"}}
+      {{#asset "embedgroup" size="m" width="430"}}
         {{{title}}}
         {{#embeds}}
           <div class="embed">{{{html}}}</div>
@@ -389,7 +389,7 @@
         {{{description}}}
       {{/asset}}
 
-      {{#asset "embedgroup" size="3" width="266"}}
+      {{#asset "embedgroup" size="s" width="266"}}
         {{{title}}}
         {{#embeds}}
           <div class="embed">{{{html}}}</div>
