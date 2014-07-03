@@ -398,66 +398,6 @@
       {{/asset}}
 
     {{/region}}
-    
-    {{#region "packer" id="new-content-region" columns="2" column_width="430" gutter_width="20" dummy_content="I-3-m,T-1-m,V-1-m,E-1-m,D-4-m" dummy_content="I-2-m,T-1-m" max_auto_assets="2" sizes="s,m" default_size="s"}}
-
-      {{#asset "text" size="m"}}
-        {{{title}}}
-        {{{body}}}
-      {{/asset}}
-
-      {{#asset "text" size="s"}}
-        {{{title}}}
-        {{{body}}}
-      {{/asset}}
- 
-      {{#asset "imagegroup" size="m"}}
-        {{{imageslider images width="430" height="353"}}}
-      {{/asset}}
-  
-      {{#asset "imagegroup" size="s"}}
-        {{{imageslider images width="266" height="230"}}}
-      {{/asset}}
- 
-      {{#asset "documentgroup" size="m"}}
-        {{{title}}}
-        {{{description}}}
-        <ul class="documents">
-          {{#documents}}
-            {{!--  The i tag gets styled by Font Awesome, which Populr pulls in automatically. --}}
-            <li><a href="{{original_url}}"><i class="icon icon-circle-arrow-right" /> {{title}}</a></li>
-          {{/documents}}
-        </ul>
-      {{/asset}}
- 
-      {{#asset "documentgroup" size="s"}}
-        {{{title}}}
-        {{{description}}}
-        <ul class="documents">
-          {{#documents}}
-            {{!--  The i tag gets styled by Font Awesome, which Populr pulls in automatically. --}}
-            <li><a href="{{original_url}}"><i class="icon icon-circle-arrow-right" /> {{title}}</a></li>
-          {{/documents}}
-        </ul>
-      {{/asset}}
- 
-      {{#asset "embedgroup" size="m" width="430"}}
-        {{{title}}}
-        {{#embeds}}
-          <div class="embed">{{{html}}}</div>
-        {{/embeds}}
-        {{{description}}}
-      {{/asset}}
-
-      {{#asset "embedgroup" size="s" width="266"}}
-        {{{title}}}
-        {{#embeds}}
-          <div class="embed">{{{html}}}</div>
-        {{/embeds}}
-        {{{description}}}
-      {{/asset}}
-
-    {{/region}}
 
     {{#region "columnizer" id="documents-region" max_cols="3" max_auto_assets="0" dummy_content="D-1,D-1,D-1"}}
 
