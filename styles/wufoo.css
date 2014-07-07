@@ -3,10 +3,9 @@
 /* Logo */
 
 /* Backgrounds */
-html{background-image:none;}
+html{background-image:none;background:red;}
 #logo{background-image:none;}
 #header{background-color: #535353;color:#fff;}
-label{font-weight: bold;}
 
 /*
 .wufoo input.text, .wufoo textarea.textarea{background:#FFFFFF url(/images/fieldbg.gif) repeat-x top}
