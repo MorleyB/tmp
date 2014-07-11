@@ -380,27 +380,33 @@
       {{/asset}}
  
       {{#asset "embedgroup" size="1" width="960"}}
-        {{{title}}}
         {{#embeds}}
-          <div class="embed">{{{html}}}</div>
+        	{{#if description}}
+	          <div class="embed">
+	          	{{{html}}}
+	          </div>
+	        {{/if}}
         {{/embeds}}
-        {{{description}}}
       {{/asset}}
 
       {{#asset "embedgroup" size="2" width="430"}}
-        {{{title}}}
         {{#embeds}}
-          <div class="embed">{{{html}}}</div>
+        	{{#if description}}
+	          <div class="embed">
+	          	{{{html}}}
+	          </div>
+	        {{/if}}
         {{/embeds}}
-        {{{description}}}
       {{/asset}}
 
       {{#asset "embedgroup" size="3" width="266"}}
-        {{{title}}}
         {{#embeds}}
-          <div class="embed">{{{html}}}</div>
+        	{{#if description}}
+	          <div class="embed">
+	          	{{{html}}}
+	          </div>
+	        {{/if}}
         {{/embeds}}
-        {{{description}}}
       {{/asset}}
 
     {{/region}}
