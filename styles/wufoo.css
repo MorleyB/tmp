@@ -4,8 +4,7 @@
 	background-image: none!important;
 	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://wufoo.com/images/themes/logos/shark.png", sizingMethod="crop")!important;
 }
-.wufoo {background-color:#dcdcdc;}
-.wufoo #header {background-color:#535353; color:#FFF !important; text-transform:uppercase;}
+
 /* Backgrounds */
 html{background-image:none!important;background-color:#99cc00}
 #logo{background-image:none!important;background-color:#669900}
