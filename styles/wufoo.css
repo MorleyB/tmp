@@ -2,4 +2,4 @@
 #footer-image-region {background-color:#000 !important;}
 iframe .wufoo {background-color:#dcdcdc !important;}
 #footer-info-region .documents li a {color:#FFF; }
-#footer-info-region .documents li {background-image:url('http://dev3.gannettlocal.com/clients/pcs/populr/dl.png'); background-position:left top;}
+#footer-info-region .documents li {background-image:url('http://dev3.gannettlocal.com/clients/pcs/populr/dl.png'); background-position:left top; background-repeat:no-repeat; margin-left:40px;}
