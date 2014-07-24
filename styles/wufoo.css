@@ -1,4 +1,4 @@
 /* Backgrounds */
 #footer-image-region {background-color:#000 !important;}
 iframe .wufoo {background-color:#dcdcdc !important;}
-#footer-info-region .documents li a {color:#FFF;}
+#footer-info-region .documents li a {color:#FFF; list-style-image:url('http://dev3.gannettlocal.com/clients/pcs/populr/dl.png');}
