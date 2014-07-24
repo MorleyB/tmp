@@ -6,6 +6,7 @@
 }
 
 /* Backgrounds */
+#footer-image-region {background-color:#000 !important;}
 html{background-image:none!important;background-color:#99cc00}
 #logo{background-image:none!important;background-color:#669900}
 #container{background:transparent!important;}
