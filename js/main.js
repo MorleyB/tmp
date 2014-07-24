@@ -2,7 +2,7 @@
 // For extensive details about creating a Populr theme, please visit
 // http://developers.populr.me/theming
 */
-$( ".slide a" ).addClass( "fancybox various iframe" );
+$( ".slide a" ).addClass( "various iframe" );
 $("slide a[href^='http']").attr('target','');
 $(document).ready(function() {
 	$(".fancybox").fancybox();
